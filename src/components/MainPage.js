@@ -1,16 +1,12 @@
 import React from "react";
-
+import HeaderComponent from "./HeaderComponent";
 import NavigationBarComponent from "./NavigationBarComponent";
 
 const MainPage = () => {
   return (
 	<div className="container" style={{backgroundColor: 'green', display: 'flex', flexDirection: 'column', width: '100%', height: '100vh', flex: 1}}>
 		{/* 헤더 */}
-		<div className="header-container" style={{display: 'flex', height: '60px'}}>
-			<header>
-				<h1>Kafka Connect UI</h1>
-			</header>
-		</div>
+		<HeaderComponent/>
 
 		{/* 내용 */}
 		<div className="inner-container" style={{display: 'flex', flex: 1}}>
