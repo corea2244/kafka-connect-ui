@@ -4,10 +4,8 @@ import '../assets/styles/Header.scss'
 const HeaderComponent = () => {
   return (
     <div className="header-container">
-			<header>
-				<h1>Kafka Connect UI</h1>
-			</header>
-		</div>
+		<span className="header-title">Kafka Connect UI</span>
+	</div>
   );
 };
 

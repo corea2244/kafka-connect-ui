@@ -1,10 +1,11 @@
 import React from "react";
+import '../assets/styles/MainPage.scss'
 import HeaderComponent from "./HeaderComponent";
 import NavigationBarComponent from "./NavigationBarComponent";
 
 const MainPage = () => {
   return (
-	<div className="container" style={{backgroundColor: 'green', display: 'flex', flexDirection: 'column', width: '100%', height: '100vh', flex: 1}}>
+	<div className="container">
 		{/* 헤더 */}
 		<HeaderComponent/>
 
@@ -23,11 +24,6 @@ const MainPage = () => {
 		
 	</div>
 	);
-};
-
-const headerStyle = {
-	width: '100%',
-	boxShadow: "0 4px 2px -2px gray",
 };
 
 export default MainPage;
